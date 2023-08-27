@@ -8,6 +8,9 @@ const PORT = 5000
 //  Criar o middleware para receber os dados no corpo da requisição OBS: oque é middleware? é uma instrução que vai ser executada antes de acessar a rota 
 app.use(express.json())
 
+// Testar conexão com banco de dados
+const DB = require("./DB/models")
+
 //  Incluir as funcionalidades do CONTROLLERS
 const messages = require("./controllers/messages")
 
