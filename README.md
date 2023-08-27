@@ -16,7 +16,11 @@ Manipular variáveis de ambiente
 Criar a Models mensagem
 ### npx sequelize-cli model:generate --name Messages --attributes name:string,email:string,subject:string,content:string
 
-
-
 Executar as migrations 
 ### npx sequelize-cli db:migrate
+
+Axios é uma biblioteca de client HTTP que permite fazer requisição a API
+### npm install axios
+
+Permitir requisição externa
+### npm install CORS
